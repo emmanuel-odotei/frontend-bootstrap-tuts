@@ -1,3 +1,43 @@
+/* Overriding colors*/
+:root {
+    --bs-body-color: #494949; /* Overriding text color */
+    --bs-primary: #b50bb5; /* Overriding primary color. It only applies when you explicitly set it to the component you want to override its color */
+}
+
+/* Applying the color to the component you want to override it's color - the buttons */
+.btn-primary {
+    background-color: var(--bs-primary);
+    border: 1px solid var(--bs-primary);
+}
+
 .min-height-feature-img {
     min-height: 300px;
+}
+
+.mb-6 {
+    margin-bottom: 64px /* 16px x 4*/;
+}
+
+.mb-7 {
+    margin-bottom: 80px /* 16px x 5*/;
+}
+
+.mb-8 {
+    margin-bottom: 96px /* 16px x 6*/;
+}
+
+.mb-9 {
+    margin-bottom: 112px /* 16px x 7*/;
+}
+
+.mb-10 {
+    margin-bottom: 128px /* 16px x 8*/;
+}
+
+.mb-11 {
+    margin-bottom: 144px /* 16px x 9*/;
+}
+
+.mb-12 {
+    margin-bottom: 160px /* 16px x 10*/;
 }
